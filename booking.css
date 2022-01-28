@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: -y;
+}
+
+.head {
+    padding-left: 220px;
+    padding-top: 10px;
+}
+
+.flex-banner {
+    text-align: center;
+    height: 50px;
+    background-color: #bce8f1;
+    padding: 10px;
+    border-radius: 5px;
+    color: #31708f;
+    width: 1050px;
+}
+
+.flex-sm-banner {
+    padding-top: 15px;
+    padding-left: 225px;
+}
+
+.head-h2 {
+    color: rgb(133, 0, 0);
+}
+
+.fa-icons {
+    color: rgb(0, 141, 0);
+}
+
+ul li {
+    text-decoration: none;
+    display: inline;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1100px) {
+    .head {
+        padding-left: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .head-h2 {
+        font-size: large;
+    }
+    .flex-sm-banner {
+        padding-top: 15px;
+        padding-left: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .flex-banner {
+        height: 80px;
+        width: 450px;
+        margin-left: 15px;
+    }
+    .card {
+        margin-left: 90px;
+    }
+}
